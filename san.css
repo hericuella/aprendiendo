@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Lexend Deca;
+}
+
+section{
+    background: #ced4da;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2px 3px;
+
+
+}
+
+section .lista{
+    display: flex;
+}
+
+section .lista a{
+    padding: 16px 12px;
+    text-decoration: none;
+    color: #2d3142;
+    border-bottom-color:#e84855 ;
+    border-bottom: 6px solid transparent;
+    transition: border .3s ease;
+
+}
+
+section .lista a:hover{
+    border-bottom-color: #e84855;
+}
+
+nav .press .boton{
+    padding: 21px 20px;
+    border: none;
+    border-radius: 20px;
+    background: #e84855;
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+
+}
+
+
+
+
+
